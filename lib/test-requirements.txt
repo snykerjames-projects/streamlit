@@ -29,3 +29,5 @@ pytest-rerunfailures>=15.0
 pytest-github-actions-annotate-failures
 pytest-benchmark>=5.1.0
 pytest-repeat>=0.9.3
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
